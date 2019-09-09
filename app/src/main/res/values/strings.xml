@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="b1">Custom Toast</string>
+    <string name="b2">See List</string>
+    <string name="b3">Guess Game</string>
+    <string name="b4">Message Pass</string>
+    <string name="e1">Type Message</string>
+    <string name="searchView">Search Here</string>
+    <string name="defaultToastButton">Default Toast</string>
+    <string name="locationToastButton">Location Toast</string>
+    <string name="imageToastButton">Image Toast</string>
+    <string name="e2">Enter Number</string>
+    <string name="textView2">Guess number between 1 and 100</string>
+    <string name="b44">Guess</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88eae6">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b1"
+        android:background="@drawable/phd19006_button_main"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/b1"
+        android:onClick="ct"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b2"
+        android:background="@drawable/phd19006_button_main"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="sl"
+        android:id="@+id/b2"
+        android:textColor="#ffffff"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b3"
+        android:background="@drawable/phd19006_button_main"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/b3"
+        android:onClick="cal"
+        android:textColor="#ffffff"
+        />
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/e1"
+        android:id="@+id/e1"
+        android:layout_marginRight="3dp"></EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b4"
+        android:background="@drawable/phd19006_button_main"
+
+        android:id="@+id/b4"
+        android:onClick="mp"
+        android:textColor="#ffffff"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</LinearLayout>
